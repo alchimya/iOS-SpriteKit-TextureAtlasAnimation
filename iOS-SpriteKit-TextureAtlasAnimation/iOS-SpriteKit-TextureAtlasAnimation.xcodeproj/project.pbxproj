@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAA04C221BCE1CF8001F2106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA04C211BCE1CF8001F2106 /* main.m */; };
+		DAA04C251BCE1CF8001F2106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA04C241BCE1CF8001F2106 /* AppDelegate.m */; };
+		DAA04C281BCE1CF8001F2106 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA04C271BCE1CF8001F2106 /* GameScene.m */; };
+		DAA04C2A1BCE1CF8001F2106 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C291BCE1CF8001F2106 /* GameScene.sks */; };
+		DAA04C2D1BCE1CF8001F2106 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA04C2C1BCE1CF8001F2106 /* GameViewController.m */; };
+		DAA04C301BCE1CF8001F2106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C2E1BCE1CF8001F2106 /* Main.storyboard */; };
+		DAA04C321BCE1CF8001F2106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C311BCE1CF8001F2106 /* Assets.xcassets */; };
+		DAA04C351BCE1CF8001F2106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C331BCE1CF8001F2106 /* LaunchScreen.storyboard */; };
+		DAA04C401BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA04C3F1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationTests.m */; };
+		DAA04C4B1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA04C4A1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationUITests.m */; };
+		DAA04C651BCE1D73001F2106 /* baroncombo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C5D1BCE1D73001F2106 /* baroncombo.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C661BCE1D73001F2106 /* bear.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C5E1BCE1D73001F2106 /* bear.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C671BCE1D73001F2106 /* caveman.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C5F1BCE1D73001F2106 /* caveman.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C681BCE1D73001F2106 /* spaceship.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C601BCE1D73001F2106 /* spaceship.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C691BCE1D73001F2106 /* viking_jump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C611BCE1D73001F2106 /* viking_jump.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C6A1BCE1D73001F2106 /* viking_jumpswing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C621BCE1D73001F2106 /* viking_jumpswing.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C6B1BCE1D73001F2106 /* viking_run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C631BCE1D73001F2106 /* viking_run.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C6C1BCE1D73001F2106 /* viking_swing.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAA04C641BCE1D73001F2106 /* viking_swing.atlas */; settings = {ASSET_TAGS = (); }; };
+		DAA04C711BCE231F001F2106 /* L3SDKTextureAtlasAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA04C701BCE231F001F2106 /* L3SDKTextureAtlasAnimation.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAA04C3C1BCE1CF8001F2106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA04C151BCE1CF8001F2106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA04C1C1BCE1CF8001F2106;
+			remoteInfo = "iOS-SpriteKit-TextureAtlasAnimation";
+		};
+		DAA04C471BCE1CF8001F2106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA04C151BCE1CF8001F2106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA04C1C1BCE1CF8001F2106;
+			remoteInfo = "iOS-SpriteKit-TextureAtlasAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAA04C1D1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-SpriteKit-TextureAtlasAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA04C211BCE1CF8001F2106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAA04C231BCE1CF8001F2106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAA04C241BCE1CF8001F2106 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAA04C261BCE1CF8001F2106 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DAA04C271BCE1CF8001F2106 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DAA04C291BCE1CF8001F2106 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DAA04C2B1BCE1CF8001F2106 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DAA04C2C1BCE1CF8001F2106 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DAA04C2F1BCE1CF8001F2106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAA04C311BCE1CF8001F2106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA04C341BCE1CF8001F2106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAA04C361BCE1CF8001F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA04C3B1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-SpriteKit-TextureAtlasAnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA04C3F1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_SpriteKit_TextureAtlasAnimationTests.m; sourceTree = "<group>"; };
+		DAA04C411BCE1CF8001F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA04C461BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-SpriteKit-TextureAtlasAnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA04C4A1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_SpriteKit_TextureAtlasAnimationUITests.m; sourceTree = "<group>"; };
+		DAA04C4C1BCE1CF8001F2106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA04C5D1BCE1D73001F2106 /* baroncombo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = baroncombo.atlas; path = Atlases/baroncombo.atlas; sourceTree = "<group>"; };
+		DAA04C5E1BCE1D73001F2106 /* bear.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = bear.atlas; path = Atlases/bear.atlas; sourceTree = "<group>"; };
+		DAA04C5F1BCE1D73001F2106 /* caveman.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = caveman.atlas; path = Atlases/caveman.atlas; sourceTree = "<group>"; };
+		DAA04C601BCE1D73001F2106 /* spaceship.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = spaceship.atlas; path = Atlases/spaceship.atlas; sourceTree = "<group>"; };
+		DAA04C611BCE1D73001F2106 /* viking_jump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = viking_jump.atlas; path = Atlases/viking_jump.atlas; sourceTree = "<group>"; };
+		DAA04C621BCE1D73001F2106 /* viking_jumpswing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = viking_jumpswing.atlas; path = Atlases/viking_jumpswing.atlas; sourceTree = "<group>"; };
+		DAA04C631BCE1D73001F2106 /* viking_run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = viking_run.atlas; path = Atlases/viking_run.atlas; sourceTree = "<group>"; };
+		DAA04C641BCE1D73001F2106 /* viking_swing.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = viking_swing.atlas; path = Atlases/viking_swing.atlas; sourceTree = "<group>"; };
+		DAA04C6F1BCE231F001F2106 /* L3SDKTextureAtlasAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKTextureAtlasAnimation.h; sourceTree = "<group>"; };
+		DAA04C701BCE231F001F2106 /* L3SDKTextureAtlasAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKTextureAtlasAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA04C1A1BCE1CF8001F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA04C381BCE1CF8001F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA04C431BCE1CF8001F2106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAA04C141BCE1CF8001F2106 = {
+			isa = PBXGroup;
+			children = (
+				DAA04C1F1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation */,
+				DAA04C3E1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationTests */,
+				DAA04C491BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationUITests */,
+				DAA04C1E1BCE1CF8001F2106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA04C1E1BCE1CF8001F2106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C1D1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation.app */,
+				DAA04C3B1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationTests.xctest */,
+				DAA04C461BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA04C1F1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C721BCE2330001F2106 /* Atlas */,
+				DAA04C6D1BCE231F001F2106 /* L3SDK */,
+				DAA04C231BCE1CF8001F2106 /* AppDelegate.h */,
+				DAA04C241BCE1CF8001F2106 /* AppDelegate.m */,
+				DAA04C261BCE1CF8001F2106 /* GameScene.h */,
+				DAA04C271BCE1CF8001F2106 /* GameScene.m */,
+				DAA04C291BCE1CF8001F2106 /* GameScene.sks */,
+				DAA04C2B1BCE1CF8001F2106 /* GameViewController.h */,
+				DAA04C2C1BCE1CF8001F2106 /* GameViewController.m */,
+				DAA04C2E1BCE1CF8001F2106 /* Main.storyboard */,
+				DAA04C311BCE1CF8001F2106 /* Assets.xcassets */,
+				DAA04C331BCE1CF8001F2106 /* LaunchScreen.storyboard */,
+				DAA04C361BCE1CF8001F2106 /* Info.plist */,
+				DAA04C201BCE1CF8001F2106 /* Supporting Files */,
+			);
+			path = "iOS-SpriteKit-TextureAtlasAnimation";
+			sourceTree = "<group>";
+		};
+		DAA04C201BCE1CF8001F2106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C211BCE1CF8001F2106 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAA04C3E1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C3F1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationTests.m */,
+				DAA04C411BCE1CF8001F2106 /* Info.plist */,
+			);
+			path = "iOS-SpriteKit-TextureAtlasAnimationTests";
+			sourceTree = "<group>";
+		};
+		DAA04C491BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C4A1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationUITests.m */,
+				DAA04C4C1BCE1CF8001F2106 /* Info.plist */,
+			);
+			path = "iOS-SpriteKit-TextureAtlasAnimationUITests";
+			sourceTree = "<group>";
+		};
+		DAA04C6D1BCE231F001F2106 /* L3SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C6E1BCE231F001F2106 /* SpriteKit */,
+			);
+			path = L3SDK;
+			sourceTree = "<group>";
+		};
+		DAA04C6E1BCE231F001F2106 /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C6F1BCE231F001F2106 /* L3SDKTextureAtlasAnimation.h */,
+				DAA04C701BCE231F001F2106 /* L3SDKTextureAtlasAnimation.m */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		DAA04C721BCE2330001F2106 /* Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				DAA04C5D1BCE1D73001F2106 /* baroncombo.atlas */,
+				DAA04C5E1BCE1D73001F2106 /* bear.atlas */,
+				DAA04C5F1BCE1D73001F2106 /* caveman.atlas */,
+				DAA04C601BCE1D73001F2106 /* spaceship.atlas */,
+				DAA04C611BCE1D73001F2106 /* viking_jump.atlas */,
+				DAA04C621BCE1D73001F2106 /* viking_jumpswing.atlas */,
+				DAA04C631BCE1D73001F2106 /* viking_run.atlas */,
+				DAA04C641BCE1D73001F2106 /* viking_swing.atlas */,
+			);
+			name = Atlas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA04C1C1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA04C4F1BCE1CF8001F2106 /* Build configuration list for PBXNativeTarget "iOS-SpriteKit-TextureAtlasAnimation" */;
+			buildPhases = (
+				DAA04C191BCE1CF8001F2106 /* Sources */,
+				DAA04C1A1BCE1CF8001F2106 /* Frameworks */,
+				DAA04C1B1BCE1CF8001F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-SpriteKit-TextureAtlasAnimation";
+			productName = "iOS-SpriteKit-TextureAtlasAnimation";
+			productReference = DAA04C1D1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA04C3A1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA04C521BCE1CF8001F2106 /* Build configuration list for PBXNativeTarget "iOS-SpriteKit-TextureAtlasAnimationTests" */;
+			buildPhases = (
+				DAA04C371BCE1CF8001F2106 /* Sources */,
+				DAA04C381BCE1CF8001F2106 /* Frameworks */,
+				DAA04C391BCE1CF8001F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA04C3D1BCE1CF8001F2106 /* PBXTargetDependency */,
+			);
+			name = "iOS-SpriteKit-TextureAtlasAnimationTests";
+			productName = "iOS-SpriteKit-TextureAtlasAnimationTests";
+			productReference = DAA04C3B1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAA04C451BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA04C551BCE1CF8001F2106 /* Build configuration list for PBXNativeTarget "iOS-SpriteKit-TextureAtlasAnimationUITests" */;
+			buildPhases = (
+				DAA04C421BCE1CF8001F2106 /* Sources */,
+				DAA04C431BCE1CF8001F2106 /* Frameworks */,
+				DAA04C441BCE1CF8001F2106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA04C481BCE1CF8001F2106 /* PBXTargetDependency */,
+			);
+			name = "iOS-SpriteKit-TextureAtlasAnimationUITests";
+			productName = "iOS-SpriteKit-TextureAtlasAnimationUITests";
+			productReference = DAA04C461BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA04C151BCE1CF8001F2106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DomenicoVacchiano;
+				TargetAttributes = {
+					DAA04C1C1BCE1CF8001F2106 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DAA04C3A1BCE1CF8001F2106 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DAA04C1C1BCE1CF8001F2106;
+					};
+					DAA04C451BCE1CF8001F2106 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DAA04C1C1BCE1CF8001F2106;
+					};
+				};
+			};
+			buildConfigurationList = DAA04C181BCE1CF8001F2106 /* Build configuration list for PBXProject "iOS-SpriteKit-TextureAtlasAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA04C141BCE1CF8001F2106;
+			productRefGroup = DAA04C1E1BCE1CF8001F2106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA04C1C1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation */,
+				DAA04C3A1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationTests */,
+				DAA04C451BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA04C1B1BCE1CF8001F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA04C6C1BCE1D73001F2106 /* viking_swing.atlas in Resources */,
+				DAA04C2A1BCE1CF8001F2106 /* GameScene.sks in Resources */,
+				DAA04C351BCE1CF8001F2106 /* LaunchScreen.storyboard in Resources */,
+				DAA04C681BCE1D73001F2106 /* spaceship.atlas in Resources */,
+				DAA04C6B1BCE1D73001F2106 /* viking_run.atlas in Resources */,
+				DAA04C321BCE1CF8001F2106 /* Assets.xcassets in Resources */,
+				DAA04C6A1BCE1D73001F2106 /* viking_jumpswing.atlas in Resources */,
+				DAA04C671BCE1D73001F2106 /* caveman.atlas in Resources */,
+				DAA04C691BCE1D73001F2106 /* viking_jump.atlas in Resources */,
+				DAA04C661BCE1D73001F2106 /* bear.atlas in Resources */,
+				DAA04C301BCE1CF8001F2106 /* Main.storyboard in Resources */,
+				DAA04C651BCE1D73001F2106 /* baroncombo.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA04C391BCE1CF8001F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA04C441BCE1CF8001F2106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA04C191BCE1CF8001F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA04C2D1BCE1CF8001F2106 /* GameViewController.m in Sources */,
+				DAA04C711BCE231F001F2106 /* L3SDKTextureAtlasAnimation.m in Sources */,
+				DAA04C251BCE1CF8001F2106 /* AppDelegate.m in Sources */,
+				DAA04C281BCE1CF8001F2106 /* GameScene.m in Sources */,
+				DAA04C221BCE1CF8001F2106 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA04C371BCE1CF8001F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA04C401BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA04C421BCE1CF8001F2106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA04C4B1BCE1CF8001F2106 /* iOS_SpriteKit_TextureAtlasAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAA04C3D1BCE1CF8001F2106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA04C1C1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation */;
+			targetProxy = DAA04C3C1BCE1CF8001F2106 /* PBXContainerItemProxy */;
+		};
+		DAA04C481BCE1CF8001F2106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA04C1C1BCE1CF8001F2106 /* iOS-SpriteKit-TextureAtlasAnimation */;
+			targetProxy = DAA04C471BCE1CF8001F2106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAA04C2E1BCE1CF8001F2106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA04C2F1BCE1CF8001F2106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAA04C331BCE1CF8001F2106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA04C341BCE1CF8001F2106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAA04C4D1BCE1CF8001F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAA04C4E1BCE1CF8001F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA04C501BCE1CF8001F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-SpriteKit-TextureAtlasAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-SpriteKit-TextureAtlasAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAA04C511BCE1CF8001F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-SpriteKit-TextureAtlasAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-SpriteKit-TextureAtlasAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAA04C531BCE1CF8001F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "iOS-SpriteKit-TextureAtlasAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-SpriteKit-TextureAtlasAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-SpriteKit-TextureAtlasAnimation.app/iOS-SpriteKit-TextureAtlasAnimation";
+			};
+			name = Debug;
+		};
+		DAA04C541BCE1CF8001F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS-SpriteKit-TextureAtlasAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-SpriteKit-TextureAtlasAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-SpriteKit-TextureAtlasAnimation.app/iOS-SpriteKit-TextureAtlasAnimation";
+			};
+			name = Release;
+		};
+		DAA04C561BCE1CF8001F2106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "iOS-SpriteKit-TextureAtlasAnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-SpriteKit-TextureAtlasAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-SpriteKit-TextureAtlasAnimation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAA04C571BCE1CF8001F2106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS-SpriteKit-TextureAtlasAnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.domenicovacchiano.iOS-SpriteKit-TextureAtlasAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS-SpriteKit-TextureAtlasAnimation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA04C181BCE1CF8001F2106 /* Build configuration list for PBXProject "iOS-SpriteKit-TextureAtlasAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA04C4D1BCE1CF8001F2106 /* Debug */,
+				DAA04C4E1BCE1CF8001F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA04C4F1BCE1CF8001F2106 /* Build configuration list for PBXNativeTarget "iOS-SpriteKit-TextureAtlasAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA04C501BCE1CF8001F2106 /* Debug */,
+				DAA04C511BCE1CF8001F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA04C521BCE1CF8001F2106 /* Build configuration list for PBXNativeTarget "iOS-SpriteKit-TextureAtlasAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA04C531BCE1CF8001F2106 /* Debug */,
+				DAA04C541BCE1CF8001F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA04C551BCE1CF8001F2106 /* Build configuration list for PBXNativeTarget "iOS-SpriteKit-TextureAtlasAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA04C561BCE1CF8001F2106 /* Debug */,
+				DAA04C571BCE1CF8001F2106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA04C151BCE1CF8001F2106 /* Project object */;
+}
