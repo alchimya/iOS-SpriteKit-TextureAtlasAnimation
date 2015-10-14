@@ -1,5 +1,5 @@
 # iOS-SpriteKit-TextureAtlasAnimation
-An useful SKNode subclass that allow to animate a set of sprite frames within an atlas bundle.
+An useful SKNode subclass that allow to animate a set of sprite frames of an atlas bundle.
 
 ![ScreenShot](https://raw.github.com/alchimya/iOS-SpriteKit-TextureAtlasAnimation/master/screenshots/RedBaron.gif)
 
