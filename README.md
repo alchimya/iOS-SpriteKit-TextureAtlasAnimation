@@ -4,7 +4,7 @@ An useful SKNode subclass that allow to animate a set of sprite frames of an atl
 ![ScreenShot](https://raw.github.com/alchimya/iOS-SpriteKit-TextureAtlasAnimation/master/screenshots/RedBaron.gif)
 
 # Introduction
-Inspired from an interesting tutorial read on RayWenderLich (http://www.raywenderlich.com/45152/sprite-kit-tutorial-animations-and-texture-atlases)
+Inspired from an interesting tutorial, read on RayWenderLich and written by Tony Dahbura (http://www.raywenderlich.com/45152/sprite-kit-tutorial-animations-and-texture-atlases)
 about Animations and Texture Atlases, I decide to develop an utility class (SKNode sublass) to achive this behavior
 in an EZ Way!
 
